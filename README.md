@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### What is QUERO-RubyOnRails?
 
-Things you may want to cover:
+This is a sketch of an API that could be used to manage students admissions and bills. It was developed using Ruby on Rails framework as part of a learning and selection proccess.
 
-* Ruby version
+### TODO List
 
-* System dependencies
+The TODO list can be found at TODO.md file.
 
-* Configuration
+### How to use
 
-* Database creation
+In short, if you want to use this project, you must install Ruby@2.5>, Rails@5.2.1>, sqlite3.
+Once you have all the dependencies installed, you should execute bundle install command inside the project folder and it will automatically read the Gemfile and install all the other dependencies.
 
-* Database initialization
+To create a database using RubyOnRails, you can use the following commands:
+(i.e: `rake db:create`)
+(i.e: `rake db:migrate`)
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To start the server up, you can use:
+(i.e: `rails server`)
